@@ -138,4 +138,5 @@ app.get('/vider', (req, res) => {
 		})
 	res.redirect('/adresse')
 })
+/////////////////////////////////////////////////////////  Route /chat
 })
