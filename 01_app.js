@@ -3,6 +3,7 @@ const fs = require('fs');
 const util = require("util");
 const app = express();
 const server = require('http').createServer(app);
+const io = require('./mes_modules/chat_socket').listen(server);
 const bodyParser= require('body-parser');
 const MongoClient = require('mongodb').MongoClient; // le pilote MongoDB
 const ObjectID = require('mongodb').ObjectID;
