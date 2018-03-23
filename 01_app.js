@@ -105,6 +105,7 @@ req.body._id = 	ObjectID(req.body._id)
 ////////////////////////////////////////  Route /detruire
 app.get('/detruire/:id', (req, res) => {
  console.log('route /detruire')
+app.post('/ajax_detruire', (req, res) => {
  // console.log('util = ' + util.inspect(req.params));	
  var id = req.params.id
  console.log(id)
