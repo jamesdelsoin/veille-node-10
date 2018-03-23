@@ -86,6 +86,7 @@ console.log('route /ajouter')
  console.log('sauvegarder dans la BD')
  res.redirect('/adresse')
  })
+////////////////////////////////////////////////////////// Route /ajax_ajouter
 })
 
 ////////////////////////////////////////  Route /modifier
