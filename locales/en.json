@@ -8,4 +8,5 @@
 	"prenom": "name",
 	"telephone": "phone",
 	"courriel": "mail",
+	"nom": "Last Name",
 }
